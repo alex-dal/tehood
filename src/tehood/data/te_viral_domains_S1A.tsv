@@ -1,0 +1,263 @@
+# Table S1A. List of InterPro protein domains associated with TEs and viruses used for the screen.
+# Source: Almeida MV, Li Z, Rebelo-Guiomar P, Dallaire A, et al. (2025) Transposable Elements Drive Regulatory and Functional Innovation of F-box Genes. Mol Biol Evol 42(5):msaf097. doi:10.1093/molbev/msaf097
+IPR000123	RNA-directed DNA polymerase (reverse transcriptase), msDNA
+IPR000280	Pestivirus NS3, peptidase S31
+IPR000305	GIY-YIG endonuclease
+IPR000328	Retroviral envelope protein GP41-like
+IPR000477	Reverse transcriptase domain
+IPR000588	Peptidase A3A, cauliflower mosaic virus-type
+IPR000605	Helicase, superfamily 3, single-stranded DNA/RNA virus
+IPR000721	Retroviral nucleocapsid  Gag protein p24, N-terminal
+IPR000840	Gamma-retroviral matrix protein
+IPR001037	Integrase, C-terminal, retroviral
+IPR001205	RNA-directed RNA polymerase,  C-terminal domain
+IPR001207	Transposase, mutator type
+IPR001213	Mouse mammary tumour virus superantigen
+IPR001584	Integrase, catalytic core
+IPR001598	Transposase, IS30, conserved site
+IPR001641	Spumavirus aspartic protease A9
+IPR001665	Norovirus peptidase C37
+IPR001676	Picornavirus capsid
+IPR001730	Potyvirus NIa protease (NIa-pro) domain
+IPR001888	Transposase, type 1
+IPR001959	Probable transposase, IS891/IS1136/IS1341
+IPR001969	Aspartic peptidase, active site
+IPR001995	Peptidase A2A, retrovirus, catalytic
+IPR002079	Gag polyprotein, inner coat protein p12
+IPR002104	Integrase, catalytic domain
+IPR002492	Transposase, Tc1-like
+IPR002513	Tn3 transposase DDE domain
+IPR002514	Transposase IS3/IS911family
+IPR002525	Transposase, IS111A/IS1328/IS1533, N-terminal
+IPR002559	Transposase, IS4-like
+IPR002560	Transposase IS204/IS1001/IS1096/IS1165, DDE domain
+IPR002611	IstB-like ATP-binding protein
+IPR002622	Transposase, Synechocystis PCC 6803
+IPR002686	Transposase IS200-like
+IPR002837	Protein of unknown function DUF123
+IPR003036	Core shell protein Gag P30
+IPR003139	Delta-retroviral matrix protein
+IPR003201	Transposase Tn5, dimerisation
+IPR003308	Integrase, N-terminal zinc-binding domain
+IPR003314	Mu-type HTH domain
+IPR003346	Transposase, IS116/IS110/IS902
+IPR003951	Peptidase C58, Yersinia/Haemophilus virulence surface antigen
+IPR004028	Retroviral Gag polyprotein, M
+IPR004107	Integrase, SAM-like, N-terminal
+IPR004189	Bacteriophage Mu, transposase
+IPR004191	Integrase, Tn916-type, N-terminal DNA binding
+IPR004242	Transposon, En/Spm-like
+IPR004244	Transposase, L1
+IPR004252	Probable transposase, Ptta/En/Spm, plant
+IPR004264	Transposase, Tnp1/En/Spm-like
+IPR004291	Transposase IS66, central domain
+IPR004312	Arabidopsis retrotransposon Orf1
+IPR004330	FAR1 DNA binding domain
+IPR004332	Transposase, MuDR, plant
+IPR004875	DDE superfamily endonuclease domain
+IPR004957	Gag polyprotein
+IPR004970	Peptidase C57, Vaccinia virus protein I7
+IPR005063	Transposase, IS1
+IPR005159	WCCH motif
+IPR005162	Retrotransposon gag domain
+IPR006118	Recombinase, conserved site
+IPR006119	Resolvase, N-terminal catalytic domain
+IPR006120	Resolvase, HTH domain
+IPR006564	Zinc finger, PMZ-type
+IPR006612	THAP-type zinc finger
+IPR006600	HTH CenpB-type DNA-binding domain
+IPR006783	Transposase, ISC1217
+IPR006842	Transposase (putative), YhgA-like
+IPR006912	Harbinger transposase-derived protein
+IPR007021	Domain of unknown function DUF659
+IPR007069	Transposase, IS801/IS1294
+IPR007094	RNA-directed RNA polymerase,  catalytic domain
+IPR007350	Transposase, Tc5, C-terminal
+IPR008490	Transposase InsH, N-terminal
+IPR008608	Ectropic viral integration site 2A protein
+IPR008737	Peptidase aspartic, putative
+IPR008738	Peptidase C27, rubella virus endopeptidase
+IPR008741	Arterivirus papain-like cysteine protease alpha (PCPalpha) domain
+IPR008743	Arterivirus Nsp2, peptidase C33
+IPR008746	Peptidase C36, beet necrotic yellow vein furovirus-type papain-like endopeptidase
+IPR008748	Hepatitis E virus, cysteine peptidase
+IPR008749	Peptidase C42, beet yellows virus-type papain-like endopeptidase C42
+IPR008878	Transposase IS66, Orf2
+IPR008906	HAT, C-terminal dimerisation domain
+IPR008916	Retrovirus capsid, C-terminal
+IPR008919	Retrovirus capsid, N-terminal
+IPR009003	Peptidase S1, PA clan
+IPR009004	Transposase, Mu, C-terminal
+IPR009882	Gypsy
+IPR010094	Transposase (putative), N-terminal
+IPR010095	Transposase IS605, OrfB, C-terminal
+IPR010359	IrrE N-terminal-like domain
+IPR010659	Reverse transcriptase connection
+IPR010661	Reverse transcriptase thumb
+IPR010998	Integrase/recombinase, N-terminal
+IPR010999	Retroviral matrix protein
+IPR011010	DNA breaking-rejoining enzyme, catalytic core
+IPR011518	Transposase, Rhodopirellula-type
+IPR011931	Tyrosine recombinase XerC
+IPR011932	Tyrosine recombinase XerD
+IPR011946	Integrase, integron-type
+IPR011969	Clan AA aspartic peptidase, C-terminal
+IPR012014	Retroelement-encoded protein, env-related
+IPR012424	Conjugative transposon, TraJ, C-terminal
+IPR012848	Aspartic peptidase, N-terminal
+IPR012884	Excisionase-like
+IPR013103	Reverse transcriptase, RNA-dependent DNA polymerase
+IPR013762	Integrase-like, catalytic domain superfamily
+IPR014417	Integrase, predicted
+IPR014527	Excinuclease GIY-YIG catalytic domain-containing uncharacterised conserved protein
+IPR014735	Transposase, Tn5-like, N-terminal
+IPR014737	Transposase, Tn5-like, C-terminal
+IPR014759	Helicase, superfamily 3, single-stranded RNA virus
+IPR014817	Gag protein p6
+IPR014832	TnsA endonuclease C-terminal
+IPR014833	TnsA endonuclease, N-terminal
+IPR014834	Gag protein p15
+IPR015094	Integrase, lambda-type, N-terminal DNA-binding
+IPR015122	Excisionase from transposon Tn916
+IPR015378	Transposase-like, Mu, C-terminal
+IPR015401	Transposase, MuDR, N-terminal
+IPR015820	Ty transposon capsid protein
+IPR016510	Cysteine protease S273R
+IPR017856	Integrase-like, N-terminal
+IPR017894	HTH domain, IS21 transposase-type
+IPR017895	Helix-turn-helix, IS408/IS1162 transposase-type
+IPR018061	Retropepsins
+IPR018154	TLV/ENV coat polyprotein
+IPR018289	MULE transposase domain
+IPR018290	MULE transposase, N-terminal all-beta domain
+IPR018473	Hermes trasposase, DNA-binding domain
+IPR018582	Envelope glycoprotein, lentivirus
+IPR018892	Retro-transposon transporting motif
+IPR018899	Conjugative transposon, TraO
+IPR019103	Aspartic peptidase, DDI1-type
+IPR019205	Protein of unknown function DUF2080, transposon-encoded
+IPR019557	Aminotransferase-like, plant mobile domain
+IPR020876	Tyrosine recombinase XerD-like
+IPR021027	Transposase, putative, helix-turn-helix domain
+IPR021109	Aspartic peptidase domain superfamily
+IPR021542	Tn7 transposition regulator TnsC
+IPR021767	Transposon Tn21 modulator protein
+IPR021896	Transposase protein
+IPR022000	Min27-like integrase, DNA-binding domain
+IPR022187	Conjugative transposon, TraM
+IPR022242	87kDa Transposase
+IPR022274	Peptidase aspartic, AF0612
+IPR022276	Conjugative transposon, TraK
+IPR022298	Conjugative transposon, TraN
+IPR022393	Conjugative transposon, TraJ
+IPR022458	Conjugative coupling factor TraG/TraD
+IPR022992	Uncharacterised protein family UPF0213, GIY-YIG endonuclease
+IPR023009	Tyrosine recombinase XerC/XerD
+IPR023634	Reovirus, outer capsid sigma-3 domain superfamily
+IPR023670	Tyrosine recombinase XerS
+IPR024355	Conjugative transposon protein TraQ, bacteroidetes
+IPR024442	Transposase, zinc-ribbon
+IPR024445	ISXO2-like transposase domain
+IPR024456	Integrase catalytic domain, putative
+IPR024457	Putative integrase, N-terminal
+IPR024463	Transposase TnpC, homeodomain
+IPR024473	Transposase, IS4, N-terminal
+IPR024474	Transposase IS66, zinc-finger binding domain of
+IPR024650	Peptidase A2B, Ty3 transposon peptidase
+IPR024735	Conjugative transposon protein TcpC
+IPR024760	Helix-turn-helix, conjugative transposon-like
+IPR024965	Putative integrase
+IPR025050	Conjugative transposon protein TraL
+IPR025161	Putative transposase IS4/IS5 family
+IPR025166	Integrase, DNA-binding domain
+IPR025246	Transposase IS30-like HTH domain
+IPR025269	Phage integrase SAM-like domain
+IPR025296	Domain of unknown function DUF4158
+IPR025314	Domain of unknown function DUF4219
+IPR025399	Domain of unknown function DUF4372
+IPR025468	Putative transposon-transfer assisting protein
+IPR025476	Helitron helicase-like domain
+IPR025525	hAT-like transposase, RNase-H fold
+IPR025608	TcpE family
+IPR025668	Transposase DDE domain
+IPR025724	GAG-pre-integrase domain
+IPR025898	Tc3 transposase, DNA binding domain
+IPR026103	Harbinger transposase-derived nuclease, animal
+IPR026889	Transposase zinc-binding domain
+IPR026989	Transposon-encoded protein TnpV
+IPR026990	Transposon-encoded protein TnpW
+IPR027805	Transposase, Helix-turn-helix domain
+IPR027806	Harbinger transposase-derived nuclease domain
+IPR028229	Integrase repeat unit
+IPR028259	AP2-like integrase, N-terminal domain
+IPR029053	Viral coat protein subunit
+IPR029104	Retro-transcribing virus envelope glycoprotein
+IPR029480	Transposase-associated domain
+IPR029526	PiggyBac transposable element-derived protein
+IPR031857	Integrase SSV1, C-terminal
+IPR032549	Domain of unknown function DUF4939
+IPR032718	PiggyBac transposable element-derived protein 4, C-terminal zinc-ribbon
+IPR032750	Transposon Tn7 transposition protein TnsD, C-termianl
+IPR032806	H repeat-associated protein, N-terminal
+IPR032874	DDE domain
+IPR032877	Transposase IS204/IS1001/IS1096/IS1165, helix-turn-helix domain
+IPR033683	Tyrosine recombinase XerH
+IPR033686	Tyrosine recombinase XerA
+IPR033703	Picornavirus/Calicivirus coat protein
+IPR034128	K02A2.6-like peptidase catalytic domain
+IPR034132	Retropepsin Saci-like domain
+IPR034170	Retropepsin-like catalytic domain
+IPR035179	Protein of unknown function DUF5314
+IPR035901	GIY-YIG endonuclease superfamily
+IPR036162	Resolvase-like, N-terminal catalytic domain superfamily
+IPR036218	HIV integrase-binding domain superfamily
+IPR036332	L-A virus major coat protein superfamily
+IPR036515	Transposase IS200-like superfamily
+IPR036862	Integrase, C-terminal domain superfamily, retroviral
+IPR038137	Excisionase-like superfamily
+IPR038148	Transposon Tn1545/Tn916, excisionase
+IPR038215	Transposase, Tn5-like, N-terminal domain superfamily
+IPR038488	Integrase, DNA-binding domain superfamily
+IPR038707	Conjugal transfer protein TraQ superfamily
+IPR038717	Tc1-like transposase, DDE domain
+IPR038721	Transposase IS701-like, DDE domain
+IPR039266	Autonomous transposable element EN-1 mosaic protein
+IPR039365	Transposase IS701-like
+IPR039464	Gag-Pol polyprotein, Zinc-finger like domain
+IPR039552	Transposase IS66, C-terminal
+IPR040521	Kyakuja-Dileera-Zisupton transposase
+IPR040564	CxC3 like cysteine cluster
+IPR040643	Murine leukemia virus integrase, C-terminal
+IPR040898	CxC6 like cysteine cluster associated with KDZ
+IPR040903	Retroviral integrase, C-terminal SH3 domain
+IPR041078	Plavaka transposase
+IPR041300	CxC7-like cysteine cluster associated with KDZ transposases
+IPR041320	CxC1-like cysteine cluster associated with KDZ transposases
+IPR041373	Reverse transcriptase, RNase H-like domain
+IPR041419	TnsE, C-terminal
+IPR041426	Mos1 transposase, HTH domain
+IPR041457	CxC2-like cysteine cluster, KDZ transposase-associated
+IPR041511	Putative DNA-binding domain
+IPR041539	CxC5 like cysteine cluster associated with KDZ
+IPR041577	Reverse transcriptase/retrotransposon-derived protein, RNase H-like domain
+IPR041588	Integrase zinc-binding domain
+IPR041718	IS607-like transposase, catalytic domain
+IPR041965	Putative transposon-transfer assisting superfamily
+IPR042423	PiggyBac transposable element-derived protein 5
+IPR042721	Transposase A from transposon Tn554, C-terminal catalytic domain
+IPR042919	Retrotransposon Gag-like protein 9
+IPR043128	Reverse transcriptase/Diguanylate cyclase domain
+IPR043784	Domain of unknown function DUF5726
+IPR044067	Picornavirales 3C/3C-like protease domain
+IPR044068	Core-binding (CB) domain
+IPR044556	Endonuclease II-like, GIY-YIG domain
+IPR044822	Myb/SANT-like DNA-binding domain 4
+IPR045259	Transposase-like protein DAYSLEEPER
+IPR045345	Retroviral nucleocapsid Gag protein p24, C-terminal domain
+IPR045358	Ty3 transposon capsid-like protein
+IPR045566	Putative endonuclease SegE, GIY-YIG domain
+IPR045618	Domain of unknown function DUF6444
+IPR046229	Transposase for transposon Tn554-like
+IPR046668	Protein of unknown function DUF6538
+IPR046796	Putative plant transposon protein domain
+IPR046929	Transposon related HTH domain protein

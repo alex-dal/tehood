@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tehood"
+version = "0.1.0"
+description = "Which protein domains are linked to transposable elements? Random-gene tests of TE counts and TE density around genes, per domain, domain combination and TE class."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Alexandra Dallaire"}]
+dependencies = ["numpy>=1.22", "scipy>=1.8", "pandas>=1.4"]
+
+[project.optional-dependencies]
+plot = ["matplotlib>=3.5"]
+test = ["pytest>=7"]
+
+[project.scripts]
+tehood = "tehood.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+tehood = ["data/*.tsv"]

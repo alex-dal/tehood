@@ -1,0 +1,3 @@
+sample	gff	ipr	fasta	te	te_format	window
+sp1	data/sp1/genomic.gff	data/sp1/protein.faa.tsv	data/sp1/genome.fna	data/sp1/genome.fna.out	rm-out	
+sp2	data/sp2/genomic.gff	data/sp2/protein.faa.tsv	data/sp2/genome.fna	data/sp2/sp2.EDTA.TEanno.gff3	edta-gff	1318

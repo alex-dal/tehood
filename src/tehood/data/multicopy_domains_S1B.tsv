@@ -1,0 +1,35 @@
+# Table S1B. List of common eukaryotic InterPro protein domains, typically multi-copy in genomes and associated with multigene families.
+# Source: Almeida MV, Li Z, Rebelo-Guiomar P, Dallaire A, et al. (2025) Transposable Elements Drive Regulatory and Functional Innovation of F-box Genes. Mol Biol Evol 42(5):msaf097. doi:10.1093/molbev/msaf097
+IPR036770	Ankyrin repeat-containing domain superfamily	Ankyrin repeats
+IPR016024	Armadillo-type fold	Armadillo
+IPR036427	Bromodomain-like superfamily	Bromodomain
+IPR011333	SKP1/BTB/POZ domain superfamily	BTB/POZ
+IPR015919	Cadherin-like Superfamily	Cadherin
+IPR035892	C2 domain superfamily	C2
+IPR036872	CH domain superfamily	CH
+IPR011992	EF-hand domain pair	EF-hand
+IPR017451	F-box associated interaction domain	F-box
+IPR001810	F-box domain	F-box
+IPR036116	Fibronectin type III superfamily	Fibronectin type III
+IPR036445	GPCR family 2, extracellular hormone receptor domain superfamily	GPCR
+IPR017981	GPCR, family 2-like, transmembrane domain	GPCR
+IPR017978	GPCR family 3, C-terminal	GPCR
+IPR017452	GPCR, rhodopsin-like, 7TM	GPCR
+IPR010730	Heterokaryon incompatibility	HET
+IPR009072	Histone-fold	Histone fold
+IPR013783	Immunoglobulin-like fold	Ig
+IPR003006	Immunoglobulin/major histocompatibility complex, conserved site	Ig/MHC
+IPR003347	JmjC domain	Jumonji
+IPR015915	Kelch-type beta propeller	Kelch
+IPR011009	Protein kinase-like domain superfamily	Kinase
+IPR032675	Leucine-rich repeat domain superfamily	LRR
+IPR008974	TRAF-like	MATH/TRAF
+IPR011162	MHC classes I/II-like antigen recognition protein	MHC
+IPR029021	Protein-tyrosine phosphatase-like	Protein tyrosine phosphatase like
+IPR036305	RGS domain superfamily	RGS
+IPR000858	S-locus glycoprotein domain	S-locus
+IPR046341	SET domain superfamily	SET
+IPR036028	SH3-like domain superfamily	SH3
+IPR011990	Tetratricopeptide-like helical domain superfamily	Tetratricopeptide
+IPR002999	Tudor domain	Tudor
+IPR015943	WD40/YVTN repeat-like-containing domain superfamily	WD40-repeat
