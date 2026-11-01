@@ -7,15 +7,15 @@ effectors), domain pair or domain architecture, TEhood asks whether the genes
 carrying it have more TE sequence nearby (**TE-associated**) or less
 (**TE-depleted**) than random genes of the same genome. It can ask this per TE
 class (LTR/Gypsy, DNA/DTM, Helitron, …) and combine the evidence across many
-genomes.
+genome assemblies.
 
 * Pure Python (numpy, scipy, pandas); runs on a laptop.
 * Starts from standard annotation files: GFF3/GTF, InterProScan TSV,
   RepeatMasker `.out` or EDTA GFF3, genome FASTA.
 * Two statistics: TE **count** near genes and TE **density** in gene flanks.
-* Exact random-gene tests in both directions, with p-values that are never 0.
+* Exact random-gene tests in both directions, with p-values.
 * Triage of TE copies that sit inside genes (annotation artefact, gene capture, TE–gene fusion).
-* Meta-analysis across genomes, to recover consistent but weak signals.
+* Meta-analysis across multiple genomes, to recover consistent but weak signals. Weak signals often arise in TE-poor genomes and fragmented genome assemblies; meta-analysing multiple assemblies can recover weak signals shared across genomes.
 
 ## Contents
 
@@ -36,7 +36,7 @@ genomes.
 Python ≥ 3.9.
 
 ```bash
-git clone https://github.com/<user>/tehood.git
+git clone https://github.com/alex-dal/tehood.git
 cd tehood
 python3 -m venv .venv && source .venv/bin/activate
 pip install ".[plot]"          # matplotlib is optional: diagnostic PDFs
@@ -225,8 +225,8 @@ window over the genomes that support it.
 
 ## 8. Many genomes: `tehood meta`
 
-TE-poor genomes rarely give FDR-significant domains on their own.
-`tehood meta` combines each analysis across genomes:
+TE-poor genomes and fragmented genome assemblies can give fewer FDR-significant domains on their own.
+`tehood meta` combines each analysis across multiple genomes:
 
 ```bash
 tehood meta --dirs results/* --empirical-null --out meta/all
@@ -241,7 +241,7 @@ tehood meta --dirs results/* --clades clades.tsv --empirical-null --out meta/all
 * `p_meta` = Bonferroni over both tests and both directions; BH → `q_meta`,
   `status`. `rescued` = significant across genomes but in no single genome.
   `p_stouffer_drop1` leaves out the strongest genome.
-* **Related genomes are not independent:** orthologous genes inherit their
+* **Related genomes are not independent:** orthologous genes can inherit their
   flanking TEs. Check `lambda` in the log and in `PREFIX_summary.tsv` (≈ 1
   expected). Above ~1.3, use `--empirical-null` (Z rescaled by the spread of
   all domains) and/or `--clades` (genomes combined within each clade first;
@@ -277,7 +277,7 @@ TEHOOD_TEST_GENOMES=5 pytest tests/        # more synthetic genomes
 Unit tests check the interval arithmetic against brute force, BH against
 scipy, the saddlepoint tail against Monte Carlo, random gene sets for
 uniformity, the meta-analysis calibration and the window choice. Synthetic
-genomes with planted truth check, for every analysis: ≤ 3/120 false positives
+genomes with planted protein domain truth check, for every analysis: ≤ 3/120 false positives
 and median log2FE ≈ 0; planted TE-depleted and TE-island domains found;
 fragmented TE annotation not called by density; a planted domain pair called
 and combination-specific; a Helitron-specific domain called for Helitron only.
@@ -288,6 +288,6 @@ Details in [docs/VALIDATION.md](docs/VALIDATION.md).
 MIT licence (see `LICENSE`).
 
 The bundled `data/te_viral_domains_S1A.tsv` and `data/multicopy_domains_S1B.tsv`
-are Tables S1A/S1B of: Almeida MV, …, Dallaire A, …, Miska EA (2025)
+are Tables S1A/S1B of: Almeida MV et al., 2025
 Transposable elements drive regulatory and functional innovation of F-box
 genes. *Mol Biol Evol* 42(5):msaf097. doi:10.1093/molbev/msaf097
