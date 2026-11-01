@@ -193,3 +193,17 @@ def test_auto_windows_follow_contiguity():
     kept, t = tables.choose_windows(g, ch, 1500)
     assert 1500 in kept and 20000 not in kept and 10000 not in kept
     assert t.set_index("window").loc[20000, "genes_full_flanks"] == 0
+
+
+# ------------------------------------------- edge case: TE-poor genome --
+def test_by_class_and_pairs_skip_gracefully(tmp_path):
+    genes = tmp_path / "genes.bed"; doms = tmp_path / "domains.tsv"; pairs = tmp_path / "pairs.tsv"
+    genes.write_text("".join(f"c\t{i * 1000}\t{i * 1000 + 500}\tg{i}\t.\t+\n" for i in range(200)))
+    doms.write_text("".join(f"g{i}\tIPR{100000 + i % 20}\td\n" for i in range(200)))      # one domain per gene
+    pairs.write_text("g1\tte1\tLTR/Gypsy\ng2\tte2\tLTR/Gypsy\n")                            # 2 TEs: no class >= 20
+    base = ["--stat", "count", "--pairs", str(pairs), "--genes", str(genes), "--domains", str(doms),
+            "--nperm", "200", "--no-plot"]
+    associate.main(base + ["--by-class", "--out", str(tmp_path / "cls")])                  # must not raise
+    assert (tmp_path / "cls_results.tsv").exists()
+    with pytest.raises(SystemExit):                                                        # no gene has 2 domains
+        associate.main(base + ["--sets", "pair", "--out", str(tmp_path / "pair")])

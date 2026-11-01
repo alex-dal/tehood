@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "tehood"
-version = "0.1.0"
+version = "0.1.1"
 description = "Which protein domains are linked to transposable elements? Random-gene tests of TE counts and TE density around genes, per domain, domain combination and TE class."
 readme = "README.md"
 requires-python = ">=3.9"

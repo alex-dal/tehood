@@ -416,7 +416,9 @@ def run(a):
         if a.by_class:
             u = pr[["te", "te_class"]].drop_duplicates()["te_class"].value_counts()
             cls = [c for c in u.index if c != "." and u[c] >= a.min_class_te]
-            if not cls: raise SystemExit("--by-class: no TE classes in the pairs file (tehood tables --level)")
+            if not cls:
+                log(f"--by-class: no TE class has >= {a.min_class_te} TEs near genes; class tests skipped")
+                return
             by = {}
             for k in sorted(cls):
                 log(f"class {k}: {u[k]} TEs near genes")
@@ -457,7 +459,10 @@ def run(a):
                     if (vk > 0).sum() < a.min_class_te: continue
                     log(f"class {k}: mean flank density {vk.mean():.4f}")
                     by[safe(k)] = one(vk, f"{pf}_class-{safe(k)}", f"density_w{W}_{k}")
-                class_summary(overall, by, pf, a.alpha)
+                if by:
+                    class_summary(overall, by, pf, a.alpha)
+                else:
+                    log(f"--by-class: no TE class with >= {a.min_class_te} genes having it in their flanks; class tests skipped")
 
 
 def parser():

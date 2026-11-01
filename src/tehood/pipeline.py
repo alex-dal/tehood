@@ -72,15 +72,22 @@ def run_one(a, name, outdir, gff=None, ipr=None, fasta=None, te=None, te_format=
     for f, n, w in zip(res, names, [W] + wins):
         explain.main(["--results", f, "--genes", genes, "--tes", tes, "--domains", doms,
                       "--window", str(w), "--out", f.replace("_results.tsv", "_hit_TE_families.tsv")])
+    def opt(label, extra):                  # optional analyses: a failure is reported, not fatal
+        try:
+            T(extra)
+        except (SystemExit, Exception) as e:
+            log(f"{name}: {label} skipped ({e})")
     if a.level:
-        T(["--stat", "density", "--density", t("gene_TE_density.tsv"), "--window", str(ex),
-           "--by-class", "--out", t(f"{name}_density_classes")])
-        T(["--stat", "count", "--pairs", t("obs_gene_TE.tsv"), "--by-class", "--out", t(f"{name}_count_classes")])
+        opt("density by TE class", ["--stat", "density", "--density", t("gene_TE_density.tsv"), "--window", str(ex),
+                                    "--by-class", "--out", t(f"{name}_density_classes")])
+        opt("count by TE class", ["--stat", "count", "--pairs", t("obs_gene_TE.tsv"), "--by-class",
+                                  "--out", t(f"{name}_count_classes")])
     for s in [x for x in a.sets.split(",") if x]:
-        T(["--stat", "density", "--density", t("gene_TE_density.tsv"), "--window", str(ex),
-           "--sets", s, "--out", t(f"{name}_density_{s}")])
+        opt(f"density {s}", ["--stat", "density", "--density", t("gene_TE_density.tsv"), "--window", str(ex),
+                             "--sets", s, "--out", t(f"{name}_density_{s}")])
         if s == "pair":
-            T(["--stat", "count", "--pairs", t("obs_gene_TE.tsv"), "--sets", "pair", "--out", t(f"{name}_count_pair")])
+            opt("count pair", ["--stat", "count", "--pairs", t("obs_gene_TE.tsv"), "--sets", "pair",
+                               "--out", t(f"{name}_count_pair")])
     log(f"{name}: done -> {outdir}")
 
 
